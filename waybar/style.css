@@ -1,0 +1,87 @@
+* {
+    font-size: 12pt;
+}
+window#waybar {
+	border: solid;
+    border-radius: 0px;
+    border-width: 2px;
+    color: #c6d0f5;
+	background-color: rgba(233,233,233,0.3);
+	border-color: rgba(186,187,241,0);
+	font-weight: bolder;
+}
+
+#clock {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #c6d0f5;
+    border-radius: 5px;
+}
+
+#clock,
+.modules-right,
+#workspaces {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#workspaces button {
+    color: #71778d;
+    border: none;
+    border-radius: 0;
+    transition: all 0.1s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #c6d0f5;
+    transition: all 0.1s ease-in-out;
+}
+
+#workspaces button.focused {
+    color: #c6d0f5;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background-color: rgba(99,97,167,0.5);
+    border: none;
+}
+
+#battery {
+    margin-right: 0;
+}
+
+#tray {
+    margin-left: 15px;
+}
+
+#network {
+    color: lightgreen;
+}
+
+#pulseaudio {
+    color: lightblue;
+}
+
+#backlight {
+    color: lightyellow;
+}
+
+#language {
+    color: orange;
+}
+
+#battery {
+    color: skyblue;
+    padding-right: 15px;
+}
+
+#workspaces,
+#clock,
+.modules-right {
+    border-radius: 10px;
+    background-color: rgba(41,44,60,0.3);
+}

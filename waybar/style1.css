@@ -1,0 +1,72 @@
+* {
+    min-height: 0;
+}
+
+window#waybar {
+		border: none;
+		color: white;
+		background-color: rgba(48, 52, 70, 0);
+		border-radius: 10px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+		background-color: rgba(48, 52, 70, 0.5);
+		padding: 5px;
+		border: solid;
+		border-width: 2px;
+		border-color: #9593D9;
+		border-radius: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+}
+
+.modules-center {
+		color: white;
+}
+
+#language,
+#backlight,
+#pulseaudio,
+#network {
+		margin-right: 5px;
+}
+
+#workspaces button {
+    color: white;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inherit;
+    text-shadow: inherit;
+    border-bottom: 3px solid #a678d3;
+    border-top: 3px solid #a678d3;
+}
+
+#workspaces button.focused {
+    background: rgba(0, 0, 0, 0.2);
+
+    border-top: 3px solid #9730fd;
+    border-bottom: 3px solid #9730fd;
+    border-left: 2px solid #9730fd;
+    border-right: 2px solid #9730fd;
+}
+
+#workspaces button.focused + button {
+    border-left: solid;
+}
+
+#workspaces button.focused:first-child {
+    border-left: solid;
+}
+
+#workspaces button.focused:last-child {
+    border-right: solid;
+}
+
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
